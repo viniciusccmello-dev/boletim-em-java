@@ -30,7 +30,7 @@ public class aluno {
         System.out.println("Idade: " + idade);
         System.out.println("Curso: " + curso);
         System.out.println("---------------------------------------------");
-        System.out.printf("%-25s | %s%n", "Mat?ria", "Nota");
+        System.out.printf("%-25s | %s%n", "Materia", "Nota");
         System.out.println("---------------------------------------------");
         for (Materia m : materias) {
             System.out.printf("%-25s | %.2f%n", m.getNome(), m.getNota());
